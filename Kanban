@@ -1,0 +1,21 @@
+Trazendo os conceitos industriais a TI, a principal aplicabilidade do Kanban é na área de  desenvolvimento de sistemas. As tarefas que estão no backlog do time devem ter uma esteira de publicação contínua e sem gargalos. Só assim, conseguimos atender as demandas do mercado, como campanhas publicitárias e mudanças de requisitos.
+
+Quando aplicado o Sistema Kanban, devemos considerar:
+
+Geração de valor das entregas
+Visualização das tarefas e o limite de WIP (work in progress)
+Sistema puxado
+Tornar os problemas explícitos e engajar as pessoas na mudança
+O widget de Flow do VSTS (Visual Studio Team Services) da Microsoft projeta a visualização das tarefas: backlog (proposed) x WIP (active / resolved) x concluído (closed):flow-vsts
+
+Também considere as seguintes métricas:
+
+Lead Time: tempo entre a criação da tarefa até a conclusão (estado final)
+Cycle Time: considera o tempo entre a tarefa “em progresso” até a conclusão
+Throughput: capacidade de vazão das tarefas
+throughput
+E as estimativas das tarefas? No Kanban, a previsibilidade é obtida pelo comportamento observado do sistema. Se o Lead Time, por exemplo, tiver em média 3 horas, este é o tempo em que a tarefa deverá estar em produção. Em geral, a variação do Lead Time está associado ao WIP não limitado, bloqueios e o tipo de demanda.
+
+O controle visual do processo pode ser configurado utilizando o VSTS. No board visualizamos as atividades que estão a FAZER (Proposed), EM PROGRESSO (Active / Resolved) e FEITO (Closed). O template utilizado do VSTS foi o CMMI, por isso fizemos uma relação dos status das atividades com o Kanban convencional.
+
+vsts-kanban
